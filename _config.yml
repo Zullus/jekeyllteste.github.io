@@ -17,8 +17,8 @@ title: The Zullus Teste Jekyll
 email: edson.santos@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Apenas fazendo experiências.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://192.168.0.151:4000/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "jekeyllteste.github.io" # the subpath of your site, e.g. /blog
+url: "https://zullus.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: zullus
 github_username:  Zullus
 
