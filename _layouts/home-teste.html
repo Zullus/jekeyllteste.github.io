@@ -1,0 +1,30 @@
+---
+layout: default
+hello_word:  "Hello Word com Liquid!"
+
+tags:
+  - jekyll
+  - blog
+  - minimalista
+
+show_footer: true
+
+#Nesse arquivo, subistituir page por layout. Funciona mas não é o correto
+---
+
+<h1>{{ layout.hello_word }}</h1>
+
+
+{% for tag in layout.tags %}
+
+  <h2>{{ tag }} </h2>
+
+{% endfor%}
+
+{% if layout.show_footer %}
+
+  <footer>
+    <p>Site by Zullu</p>
+  </footer>
+
+{% endif %}
